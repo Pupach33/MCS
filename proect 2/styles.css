@@ -1,0 +1,10 @@
+h1, h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+p { 
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+}

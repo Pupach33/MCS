@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .verh{
+    display: flex;
+    background-color: rgb(228, 228, 26);
+    justify-content: flex-start;
+    height: 130px;
+    font-size: 20px;
+  }
+  .Name{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .bigphoto {
+    display: flex;
+    background-image: url(image/BIG.png);
+    background-size: ;
+    height: 1000px;
+    background-repeat: no-repeat;
+  }
+  .links{
+    display: flex;
+    background-color: rgb(228, 228, 26);
+    height: 75px;
+    align-items: center;
+  }
+  .link1 {
+    display: flex;
+    margin-left:100px;
+  }
+  .artist, .next , .another, .eth {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .lending {
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 22px;
+  }
+  .lending text{
+    display: flex;
+
+  }
+  .im, .git, .pr{
+    display: flex;
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .futor {
+    display: flex;
+    background-color: rgb(228, 228, 26); ;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+  }
+  .MCS, .osnovi{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    color: #ffffff;
+    font-size: 32px;
+  }
+  

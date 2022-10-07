@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    background-color: yellow;
+    width: 100%;
+}
+.vl {
+    border:1px solid black;
+    margin: 40px;
+    
+}
+.page {
+    width: 100%;
+   
+}
+.page1 {
+    height: min-content;
+}
+@media only screen and (max-width:800px) {
+.txt{
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    margin-top: 20px;
+}
+}
+@media only screen and (min-width: 801px) {
+     .glavnoe {
+        display: flex;
+        align-items: flex-start;
+     }
+     .vl {
+        width: 30%;
+     }
+     .txt{
+        display:flex;
+        flex-wrap: wrap;
+        font-size: 22px;
+        margin: 20px;
+        padding: 50px;
+
+    }
+    p{
+    margin-top: 20px;
+}
+    }

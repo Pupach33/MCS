@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link,
+a:visited {
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+} 
+.ver {
+    display: flex;
+    justify-content: space-between;
+    background-color:#F8BFC7 ;
+    color: black;
+
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    font-size: 12px;
+}
+.infa {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.osnova {
+    display: block;
+    background-image: url(unknown.png);
+    background-size: cover;
+    height: 750px;
+    border-top: 1px solid #F8BFC7 ;
+}
+.from {
+    font-size: 19px;
+    width: 80%; 
+    margin: 150px auto;
+    color: white;
+    font-weight: bold;
+}
+.forma {
+    background-color: #F8BFC7;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.pervi {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.from input[type="text"],
+.from input[type="email"] {
+    border:1px  white ;
+    border-bottom: 1px solid white;
+    background-color: #F8BFC7;
+    color: white;
+}
+
+.from label {
+    margin-bottom: 7px;
+}
+.from ::placeholder {
+    color: white;
+}
+.from button {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 20px;
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: orange;
+    margin: 10px auto;
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+}
+.niz {
+    background-color: rgb(66, 110, 255);
+    display: flex;
+    justify-content: center;
+    padding-bottom:30px ;
+    color: orange;
+}
+.rev {
+    padding: 20px;
+}
+@media only screen and (min-width: 700px) {
+    .from {
+        width: 300px;
+        margin: 100px;
+    }
+    .osnova {
+        height: 900px;
+    }
+    .niz {
+        padding: 50px;
+        font-size: 30px;
+    }
+    .infa {
+        width: 450px;
+    }
+    .ver {
+        font-size: 20px;
+    } }
